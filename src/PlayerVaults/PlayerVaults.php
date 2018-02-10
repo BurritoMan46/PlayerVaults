@@ -1,7 +1,7 @@
 <?php
 /*
 *
-* Copyright (C) 2017 Muqsit Rayyan
+* Copyright (C) 2018 MangoTheDev(
 *
 *    ___ _                                        _ _
 *   / _ \ | __ _ _   _  ___ _ __/\   /\__ _ _   _| | |_ ___
@@ -17,8 +17,7 @@
 *
 *
 * @author Muqsit Rayyan
-* Twiter: http://twitter.com/muqsitrayyan
-* GitHub: http://github.com/Muqsit
+* Twiter: http://twitter.com/DakerOmar
 *
 */
 namespace PlayerVaults;
@@ -50,7 +49,7 @@ class PlayerVaults extends PluginBase {
     {
         self::$instance = $this;
         $this->getLogger()->notice(implode(TF::RESET.PHP_EOL.TF::YELLOW, [
-            'Loaded PlayerVaults by Muqsit (Twitter: @muqsitrayyan)',
+            'Loaded PlayerVaults by MangoTheDev (Twitter: @DakerOmar)',
             '   ___ _                                        _ _       ',
             '  / _ \ | __ _ _   _  ___ _ __/\   /\__ _ _   _| | |_ ___ ',
             ' / /_)/ |/ _" | | | |/ _ \ "__\ \ / / _" | | | | | __/ __|',
@@ -58,7 +57,7 @@ class PlayerVaults extends PluginBase {
             '\/    |_|\__,_|\__, |\___|_|    \_/ \__,_|\__,_|_|\__|___/',
             '               |___/                                      ',
             ' ',
-            'GitHub: http://github.com/Muqsit/PlayerVaults'
+            'Twitter: http:twitter.com/DakerOmar'
         ]));
 
         if(!is_dir($this->getDataFolder())){
@@ -285,9 +284,9 @@ class PlayerVaults extends PluginBase {
                 switch(strtolower($args[0])){
                     case "about":
                         $sender->sendMessage(implode(TF::RESET.PHP_EOL, [
-                            TF::GREEN."PlayerVaults v".$this->getDescription()->getVersion()." by ".TF::YELLOW."Muqsit",
-                            TF::GREEN."Twitter: ".TF::AQUA."@muqsitrayyan",
-                            TF::GREEN."GitHub Repo: ".TF::DARK_PURPLE."http://github.com/Muqsit/PlayerVaults"
+                            TF::GREEN."PlayerVaults",
+                            TF::GREEN."Twitter: ".TF::AQUA."@DakerOmar",
+                            TF::GREEN."PrivateVaults By §cMangoTheDev"
                         ]));
                         return true;
                     case "admin":
