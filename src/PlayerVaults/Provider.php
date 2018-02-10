@@ -1,7 +1,7 @@
 <?php
 /*
 *
-* Copyright (C) 2017 Muqsit Rayyan
+* Copyright (C) 2018 MangoTheDev
 *
 *    ___ _                                        _ _
 *   / _ \ | __ _ _   _  ___ _ __/\   /\__ _ _   _| | |_ ___
@@ -16,9 +16,8 @@
 * (at your option) any later version.
 *
 *
-* @author Muqsit Rayyan
-* Twiter: http://twitter.com/muqsitrayyan
-* GitHub: http://github.com/Muqsit
+* @author MangoTheDev
+* Twiter: http://twitter.com/dakeromar
 *
 */
 namespace PlayerVaults;
