@@ -8,7 +8,7 @@ mysql:
   # IP address belonging to the mysql database
   ip: 127.0.0.1
   # Mysql user, avoid using "root" for safety precautions.
-  user: muqsit
+  user: freakk
   # Password in plain text. Make sure you keep this file a secret.
   pass: abcd123
   # Database name to save vaults data in.
@@ -17,7 +17,7 @@ mysql:
   port: 3306
 
 # Max number of vaults that a player *may* have
-max-vaults: 25
+max-vaults: 100
 
 # The name of the vault's inventory
 # {VAULTNO} -> The vault number
